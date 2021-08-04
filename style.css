@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'impact_labelregular';
+    src: url('fonts/Impact_Label-webfont.eot');
+    src: url('fonts/Impact_Label-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Impact_Label-webfont.woff') format('woff'),
+         url('fonts/Impact_Label-webfont.ttf') format('truetype'),
+         url('fonts/Impact_Label-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}    
+*
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    color: midnightblue;
+}
+html
+{
+    background-image: url("background.png");
+    -background-repeat: no-repeat
+    -background-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1
+{
+    text-shadow: 4px 4px 3px crimson;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.7em;
+    font-weight: bold;
+    border: 4px darksalmon dashed;
+    border-radius: 10px;
+}
+h2
+{
+    color:lightcoral;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+h3
+{
+    color:rgb(11, 175, 175);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h1+P
+{
+    text-align: center;
+}
+.PS
+{
+    font-size: 0.8em;
+}
+.exhibits
+{
+    color:rgb(204, 50, 96)
+}
+.italics
+{
+    font-style: italic;
+}
+.pic
+{
+    float: inline-end;
+}
+a
+{
+    color: darkslategrey ;
+}
+a:visited
+{
+    color:cornflowerblue
+}
