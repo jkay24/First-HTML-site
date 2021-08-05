@@ -18,7 +18,7 @@
 html
 {
     background-image: url("background.png");
-    -background-repeat: no-repeat
+    -background-repeat: no-repeat;
     -background-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -99,7 +99,6 @@ figcaption
     text-align: center
 }
 
-/* I don't understand how the nth-child things below work to resize or re-order the images*/
 .box :nth-child(1)
 {
     order:1;
